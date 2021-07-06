@@ -1,0 +1,27 @@
+#content_tab {
+    border: solid blue;
+    margin: 7rem;
+}
+
+#avatar {
+    height: 10rem;
+    border: solid blue;
+    border-radius: 55%;
+    position: relative;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+#GC {
+    margin-top: -7rem;
+    margin-left: 7rem;
+}
+
+#header {
+    margin-left: 5rem;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
