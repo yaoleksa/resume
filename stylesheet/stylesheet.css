@@ -68,3 +68,9 @@ p {
     margin-right: 2rem;
     margin-left: 3rem;
 }
+
+svg {
+    margin: 1rem;
+    width: 4rem;
+    height: 4rem;
+}
