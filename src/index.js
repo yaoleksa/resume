@@ -13,4 +13,6 @@ const resetChange = () => {
 }
 
 avatar.addEventListener('mouseover', changeAva);
+avatar.addEventListener('touchstart', changeAva);
 avatar.addEventListener('mouseout', resetChange);
+avatar.addEventListener('touchend', resetChange);
