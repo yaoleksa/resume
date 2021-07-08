@@ -54,14 +54,19 @@
     font-weight: normal;
 }
 
-.certificate_icon {
+.link_icon {
     width: 3rem;
     height: 3rem;
 }
 
-.certificate_container {
+.link_container {
     display: grid;
-    grid-template-columns: 1fr 11fr;
+    grid-template-columns: 1fr 31fr;
+    padding-left: 3rem;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 h1 {
@@ -71,6 +76,11 @@ h1 {
     text-transform: uppercase;
     font-family: 'Zen Tokyo Zoo';
     font-weight: normal;
+}
+
+h2 {
+    margin-left: 3rem;
+    font-family: 'Oswald';
 }
 
 p {
