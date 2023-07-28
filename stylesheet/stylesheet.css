@@ -41,6 +41,25 @@ body{
     margin-bottom: 4rem;
 }
 
+#pagination {
+    position:static;
+    top:220%;
+    width: 50%;
+    margin: -6% 0 1% 50%;
+    display: flex;
+    font-size: 14pt;
+}
+
+#delimeter {
+    margin:0 0.25% 0 0.25%;
+    font-weight: bold;
+}
+
+.page {
+    text-decoration: underline !important;
+    color:blue;
+}
+
 .category {
     font-family: 'Oswald';
     text-transform: uppercase;
@@ -95,13 +114,13 @@ svg {
 }
 
 .footer {
-    position: fixed;
+    position: static;
     background-color: burlywood;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-  }
+}
 
 @media (max-width: 550px) {
     svg {
