@@ -50,7 +50,7 @@ body{
     font-size: 14pt;
 }
 
-#delimeter {
+.delimeter {
     margin:0 0.25% 0 0.25%;
     font-weight: bold;
 }
@@ -121,6 +121,25 @@ svg {
     width: 100%;
     text-align: center;
 }
+
+.project_description {
+    margin-left: 2.5%;
+}
+
+.space {
+    font-size: 5pt;
+}
+
+ol {
+    counter-reset: list;
+  }
+  ol > li {
+    list-style: none;
+  }
+  ol > li:before {
+    content: counter(list, lower-alpha) ") ";
+    counter-increment: list;
+  }
 
 @media (max-width: 550px) {
     svg {
