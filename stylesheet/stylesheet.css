@@ -27,6 +27,7 @@ body{
 #GC {
     margin-top: 3rem;
     margin-left: 1rem;
+    padding-bottom: 10rem;
 }
 
 #header {
@@ -123,7 +124,7 @@ svg {
 }
 
 .project_description {
-    margin-left: 2.5%;
+    margin: 0 12% 8% 2.5%;
 }
 
 .space {
@@ -139,6 +140,11 @@ ol {
   ol > li:before {
     content: counter(list, lower-alpha) ") ";
     counter-increment: list;
+  }
+
+  ol#g {
+    counter-set: list 6;
+    padding-bottom: 84%;
   }
 
 @media (max-width: 550px) {
