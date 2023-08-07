@@ -144,7 +144,7 @@ ol {
 
   ol#g {
     counter-set: list 6;
-    padding-bottom: 84%;
+    padding-bottom: 80%;
   }
 
 @media (max-width: 550px) {
